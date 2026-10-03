@@ -1,0 +1,5 @@
+/host/
+/share/
+/doc/
+/target/
+*.tar.gz
