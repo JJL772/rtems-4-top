@@ -1,0 +1,10 @@
+[submodule "src/rtems"]
+	path = src/rtems
+	url = git@github.com:slaclab/rtems.git
+	branch = slac-4.10.2
+[submodule "tools"]
+	path = tools
+	url = git@github.com:JJL772/rtems-tools.git
+[submodule "src/ssrlApps"]
+	path = src/ssrlApps
+	url = git@github.com:slaclab/rtems-ssrlApps.git
