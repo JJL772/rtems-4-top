@@ -63,7 +63,6 @@ cd build-rtems-${ARCH}
 
 ../configure \
     --enable-rtemsbsp="$BSPS" \
-    --target="${ARCH}-rtems" \
     --with-rtems-top="$PWD/../../../target/rtems_p${RT_PATCH}" \
     --prefix="$PWD/../../../" \
     --with-package-subdir="target/rtems_p${RT_PATCH}/ssrlApps_p${PATCH}" \
